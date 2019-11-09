@@ -1,0 +1,161 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #ededef;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+	text-shadow: 2px 2px 3px #aaa;
+	margin-left: 10px;
+	padding-right: 10px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h2, h3, h4, h5, h6, p {
+	margin-top: 0px;
+	margin-left: 10px;
+	padding-right: 10px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+a img {
+	border: none;
+}
+a:link {
+	color:#00F
+	text-decoration: underline;
+}
+a:visited {
+	color: rgb(78, 78, 134);
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	height:40px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 7;
+    overflow: hidden;
+    background-color: none;
+	height:55px;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+	display: block;
+	margin-top: 10px;
+	color: #96755e;
+	font-size: 14px;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+ul.nav li.active a {
+	color:#000;
+	background-color:  rgb(252, 237, 30);
+	
+}
+
+ul.nav li a:hover {
+	color:#ff0000;
+}
+
+
+.main-content {
+	padding: 5px 0;
+}
+
+
+
+.strap{
+	background-color:#fff;
+}
+
+.strap1{
+	height: 20px;
+	width: 100%;
+	background-color:#000;
+}
+
+.edge{
+	height: 35px;
+	background-color: #ffd700;
+	border-left:solid #000 20px;
+	text-align:right;
+}
+
+
+.strap2{
+	height: 25px;
+	width: 100%;
+	background-color:rgb(252, 237, 30);
+	text-align:right;
+}
+
+
+#pic {
+	margin-top:25px;
+	position:absolute;
+	padding-left: 55px;
+	top: 70px;
+}
+	
+.row {
+	display: block;
+	padding: 4px;
+	margin-top: 8px;
+	margin-left: 8px;
+	text-align: center;
+	vertical-align: middle;
+  }
+  
+
+#blurbtext {
+	width:600px;
+	margin-left:300px;
+}
+div.form {
+    width: 900px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(170, 170, 170);
+    border-radius: 6px;
+    }
+#subject{
+    width: 700px;
+    scroll: auto;
+}
+#footer {
+	margin-left: 5px 0;
+	padding-right: 10px;
+	font-size: 12px;
+	text-align: right;
+	background: #000;
+	font-size:8px;
+	color:#FFFFFF;
+}
